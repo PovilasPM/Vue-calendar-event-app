@@ -1,0 +1,154 @@
+body {
+    background-color: #38414b;
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+}
+
+// Event colors
+
+.green {
+    background: rgb(49, 155, 49) !important;
+    border-color: rgb(49, 155, 49) !important;
+}
+.blue {
+    background: rgb(59, 59, 163) !important;
+    border-color: rgb(59, 59, 163) !important;
+}
+.orange {
+    background: orange !important;
+    border-color: orange !important;
+}
+.red {
+    background: rgb(235, 77, 77) !important;
+    border-color: rgb(235, 77, 77) !important;
+}
+
+// Pointer on hover and bg on hover
+
+.c-hover-pointer,
+.fc-content-skeleton {
+    &:hover {
+        cursor: pointer;
+    }
+}
+.fc-day {
+    &:hover {
+        background: #5e5ed9 !important;
+        cursor: pointer;
+    }
+}
+
+// Other Fullcalendar styling
+
+// Text colors
+.fc-header-toolbar h2,
+.fc-day-header span,
+.fc-day-number {
+    color: white;
+}
+.fc-title {
+    color: #292f35;
+    font-size: 1rem;
+}
+// Borders
+.fc-day,
+.fc-head-container,
+.fc-widget-content,
+.fc-day-header {
+    border-color: #4f5863 !important;
+}
+
+// Spacing event name and delete button
+.fc-day-grid-event {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.fc-today {
+    background-color: #4f5863 !important;
+}
+
+.event-del {
+    text-decoration: none;
+    padding: 2px 7px;
+    color: white;
+    border-radius: 5px;
+    background-color: #4f5863;
+    &:hover {
+        background-color: white;
+        color: #4f5863;
+        text-decoration: none;
+    }
+}
+
+// Modal styling
+.c-modal-text {
+    color: #a5a5a5 !important;
+    padding: 0rem 0.5rem;
+}
+.vdp-datepicker input {
+    width: 100%;
+    border: 2px solid #d9d9d9;
+    padding: 0.5rem 1rem;
+    outline: none;
+    &:focus {
+        border: 2px solid #ff4500;
+        box-shadow: 1px 2px 3px #e6e6e6;
+    }
+}
+
+// Popover
+.c-poper {
+    z-index: 5; // for popover not to go under grid;
+}
+.updateForm {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+}
+.pop-input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    background-color: #38414b;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.updateForm a {
+    width: 100%;
+    text-align: right;
+    color: white;
+    margin-bottom: 0.5rem;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.updateForm textarea {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    background-color: #38414b;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.drop-content {
+    background-color: #333434 !important;
+    margin: 0.5rem 0rem;
+}
+.pop-submit {
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    &:hover {
+        color: #007bff;
+        background-color: #333434;
+        border: 2px solid #007bff;
+    }
+}
