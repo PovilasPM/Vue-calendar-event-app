@@ -178,6 +178,6 @@ export default {
 
 <style lang='scss' scoped>
 .c-calendar-cont {
-    max-width: 70vw;
+    max-width: 60vw;
 }
 </style>

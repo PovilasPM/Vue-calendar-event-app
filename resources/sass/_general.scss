@@ -44,6 +44,10 @@ body {
 
 // Other Fullcalendar styling
 
+.fc-header-toolbar {
+    margin: 0.5rem !important;
+}
+
 // Text colors
 .fc-header-toolbar h2,
 .fc-day-header span,

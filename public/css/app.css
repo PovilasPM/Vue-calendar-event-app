@@ -14062,6 +14062,10 @@ body {
   cursor: pointer;
 }
 
+.fc-header-toolbar {
+  margin: 0.5rem !important;
+}
+
 .fc-header-toolbar h2,
 .fc-day-header span,
 .fc-day-number {
